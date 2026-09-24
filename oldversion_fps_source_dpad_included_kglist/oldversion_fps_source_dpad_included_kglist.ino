@@ -25,6 +25,7 @@ int sens = 1100; // sens_num = 3
 int sens_num = 3; // sens = 1100;
 
 //D패드식 버튼 정의
+// 센서 버튼 임계값 출처: Devicemart ADKeyboard 데이터시트 https://www.devicemart.co.kr/goods/download?id=1064936&rank=1
 int adc_key_val[5] = {30, 150, 360, 535, 760}; // 센서 버튼 값 정의
 int NUM_KEYS = 5; // 버튼 개수
 int adc_key_in; // 데이터를 읽을 변수
